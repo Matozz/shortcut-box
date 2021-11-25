@@ -44,7 +44,7 @@ do {
         throw Error.noImageData
     }
     
-    let imageURL = currentDirectoryURL.appendingPathComponent("image.jpg")
+    let imageURL = currentDirectoryURL.appendingPathComponent("💡Daily Shortcut.jpg")
     try data.write(to: imageURL)
 }
 catch {
